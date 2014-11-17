@@ -1,0 +1,27 @@
+{
+  "name": "hapi-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nss-cohort-2014-06-07/hapi-todo.git"
+  },
+  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nss-cohort-2014-06-07/hapi-todo/issues"
+  },
+  "homepage": "https://github.com/nss-cohort-2014-06-07/hapi-todo",
+  "dependencies": {
+    "good": "^4.0.0",
+    "good-console": "^2.0.1",
+    "hapi": "^7.5.2",
+    "joi": "^4.9.0",
+    "lout": "^5.1.2",
+    "mongoose": "^3.8.19"
+  }
+}
