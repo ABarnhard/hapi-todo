@@ -3,5 +3,6 @@
 module.exports = [
   {method: 'get',  path: '/',           config: require('./config/home/get_home')},
   {method: 'get',  path: '/about',      config: require('./config/home/get_about')},
-  {method: 'post', path: '/priorities', config: require('./config/priorities/post_priorities')}
+  {method: 'post', path: '/priorities', config: require('./config/priorities/post_priorities')},
+  {method: 'get',  path: '/priorities', config: require('./config/priorities/get_priorities')}
 ];
