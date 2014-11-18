@@ -8,8 +8,8 @@ var Hapi     = require('hapi'),
 
 server.route(routes);
 
-server.pack.register(plugins, function(){
-    mongoose.connection.once('open', function(){
+mongoose.connection.once('open', function(){
+    server.pack.register(plugins, function(){
         server.start(function(){
             server.log('info', 'Server running at: ' + server.info.uri);
         });
